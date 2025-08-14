@@ -73,7 +73,9 @@ function PureChatHeader({
       )}
 
       <Button
-        className="hidden md:flex py-1.5 px-2 h-fit md:h-[34px] order-4 md:ml-auto gap-2"
+        variant="default"
+        size="sm"
+        className="hidden md:flex order-4 md:ml-auto gap-2"
         asChild
       >
         <Link
