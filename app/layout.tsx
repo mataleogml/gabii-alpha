@@ -8,8 +8,8 @@ import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Ria Content Proofing',
-  description: 'Ria Content Proofing platform for reviewing and validating content.',
+  title: 'Ria Content Genie',
+  description: 'Ria Content Genie - AI-powered content audit, review, and proofreading platform.',
 };
 
 export const viewport = {

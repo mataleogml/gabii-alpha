@@ -8,6 +8,7 @@ import { ModelSelector } from '@/components/model-selector';
 import { SidebarToggle } from '@/components/sidebar-toggle';
 import { Button } from '@/components/ui/button';
 import { PlusIcon } from './icons';
+import { ExternalLink } from 'lucide-react';
 import { useSidebar } from './ui/sidebar';
 import { memo } from 'react';
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
@@ -72,14 +73,15 @@ function PureChatHeader({
       )}
 
       <Button
-        className="bg-zinc-900 dark:bg-zinc-100 hover:bg-zinc-800 dark:hover:bg-zinc-200 text-zinc-50 dark:text-zinc-900 hidden md:flex py-1.5 px-2 h-fit md:h-[34px] order-4 md:ml-auto"
+        className="hidden md:flex py-1.5 px-2 h-fit md:h-[34px] order-4 md:ml-auto gap-2"
         asChild
       >
         <Link
           href="https://www.ria.design/"
           target="_blank"
         >
-          Return to ria.design →
+          Return to ria.design
+          <ExternalLink size={16} />
         </Link>
       </Button>
     </header>
