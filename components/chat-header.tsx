@@ -76,10 +76,10 @@ function PureChatHeader({
         asChild
       >
         <Link
-          href="#"
+          href="https://www.ria.design/"
           target="_blank"
         >
-          Ria Content Guideline
+          Return to ria.design →
         </Link>
       </Button>
     </header>
